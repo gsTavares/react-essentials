@@ -2,11 +2,11 @@
 
 ## Browsers can run React Code directly?
 
-- The awnser is: **no**. Browsers cannot understand React code. Instead, all React code that was written is transformed during the **build process** to Javascript, and them rendered by the browser.
+The awnser is: **no**. Browsers cannot understand React code. Instead, all React code that was written is transformed during the **build process** to Javascript, and them rendered by the browser.
 
 ## What are components?
 
-- In React, a component is a piece of code that contains HTML, CSS and Javascript,  and represents a part of the UI. For real projects, developers may have different ways to define if a section on a page is a component or not. 
+In React, a component is a piece of code that contains HTML, CSS and Javascript,  and represents a part of the UI. For real projects, developers may have different ways to define if a section on a page is a component or not. 
 
 - The main benefits of break the UI in small parts are the code **readbility** and **reusability** of them.
 
@@ -30,7 +30,7 @@ const entryPoint = document.getElementById("root");
 ReactDOM.createRoot(entryPoint).render(<App />);
 ```
 
-- The HTML tags in React are **built-in** components (eg. header, p and span). For that reason, **custom components** must have the first letter in UPPERCASE.
+The HTML tags in React are **built-in** components (eg. header, p and span). For that reason, **custom components** must have the first letter in UPPERCASE.
 
 ```jsx
 // Custom component example
@@ -48,3 +48,7 @@ function Header() {
   );
 }
 ```
+
+## Another core concepts
+
+There's more core concepts that are covered in this project (eg. dynamic values, UI updating, states, props). You can see their implementation individually in the `master` branch.
